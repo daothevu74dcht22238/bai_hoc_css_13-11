@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="newstyle.css">
+        <title>Phiếu đăng kí tham gia chương trình khuyến mại</title>
+    </head>
+    <body>
+        <main>
+            <div class="pdk">
+                <h1>Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
+                <form name="form_phieu_kiem_tra" method="POST || GET" action="https://www.google.com/">
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Họ và tên</td>
+                                <td><input type="text" id="hovaten" name="hovaten" placeholder="Điền họ tên tại đây..." required></td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ</td>
+                                <td><input type="text" id="diachi" name="diachi" placeholder="Địa chỉ ..."></td>
+                            </tr>
+                            <tr>
+                                <td>Số điện thoại</td>
+                                <td><input type="number" id="sdt" name="sdt" placeholder="Số điện thoại..." required></td>
+                            </tr>
+                            <tr>
+                                <td>Phái</td>
+                                <td>Nam:<input type="radio" id="sex" name="sex"></td>
+                                <td>Nữ:<input type="radio" id="sex" name="sex"></td>
+                            </tr>
+                            <tr>
+                                <td>Nghề nghiệp</td>
+                                <td>
+                                    <select>
+                                        <option value="bacsi">Bác sĩ</option>
+                                        <option value="congan">Công an</option>
+                                        <option value="kinhdoanh">Kinh doanh</option>
+                                        <option value="giaovien">Giáo viên</option>
+                                        <option value="sinhvien">Sinh viên</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Chọn sản phẩm tham gia</td>
+                                <td>
+                                    <select id="sanpham" name="sanpham">
+                                        <option value="kemdanhrang">Kem đánh răng</option>
+                                        <option value="muoime">Gói mè</option>
+                                        <option value="ip15prmax">Iphone 15 promax</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Số người tham gia</td>
+                                <td><input type="number" id="songuoithamgia" name="songuoithamgia" required></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp</td>
+                                <td><input type="submit" value="Đồng ý"></td>
+                            </tr>
+                        </table>          
+                    </form>
+            </div>  
+        </main>
+    </body>
+</html>
