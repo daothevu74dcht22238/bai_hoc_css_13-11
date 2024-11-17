@@ -1,13 +1,15 @@
-.pdk{
-    width: 600px;
-    height: 270px;
-    border: 1px solid grey;
+table,th,td,p {
+    border: 1px solid black;
 }
-h1{
+table {
+    border-collapse: collapse;
+    width: 47%;
+  }
+th{
     color:aqua;
     font-size: 25px;
     padding-left: 1cm;
-    border-width: 5px;
+    text-align: center;
 }
 input[type=text]{
     width: 180px;
@@ -22,12 +24,5 @@ input[type=number]{
 select{
     border-radius: 3px;
 }
-td{
-    padding-right: 50px;
-}
-input[type=radio]{
-    padding-right: 0.5cm;
-}
-input[type=submit]{
 
-}
+

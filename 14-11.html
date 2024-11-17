@@ -1,16 +1,26 @@
 <!DOCTYPE html>
+<!--.pdk{
+    width: 600px;
+    height: 270px;
+    border: 1px solid grey;
+    class="pdk"
+    -->
 <html>
     <head>
         <link rel="stylesheet" href="newstyle.css">
         <title>Phiếu đăng kí tham gia chương trình khuyến mại</title>
     </head>
     <body>
-        <main>
-            <div class="pdk">
-                <h1>Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
+            <div>
                 <form name="form_phieu_kiem_tra" method="POST || GET" action="https://www.google.com/">
                     <form>
                         <table>
+                            <colgroup>
+                                <col span="2" style="background-color: aquamarine;">
+                            </colgroup>
+                            <tr>
+                                <th colspan="2" style="background-color: white;">Phiếu đăng kí tham gia chương trình khuyến mãi</th>
+                            </tr>
                             <tr>
                                 <td>Họ và tên</td>
                                 <td><input type="text" id="hovaten" name="hovaten" placeholder="Điền họ tên tại đây..." required></td>
@@ -25,8 +35,10 @@
                             </tr>
                             <tr>
                                 <td>Phái</td>
-                                <td>Nam:<input type="radio" id="sex" name="sex"></td>
-                                <td>Nữ:<input type="radio" id="sex" name="sex"></td>
+                                <td>
+                                    Nam:<input type="radio" id="sex" name="sex">
+                                    Nữ:<input type="radio" id="sex" name="sex">
+                                </td>
                             </tr>
                             <tr>
                                 <td>Nghề nghiệp</td>
@@ -55,12 +67,10 @@
                                 <td><input type="number" id="songuoithamgia" name="songuoithamgia" required></td>
                             </tr>
                             <tr>
-                                <td>&nbsp</td>
-                                <td><input type="submit" value="Đồng ý"></td>
+                                    <th colspan="2"><input type="submit" value="Đồng ý"></th>
                             </tr>
                         </table>          
                     </form>
             </div>  
-        </main>
     </body>
 </html>
